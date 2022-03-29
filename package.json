@@ -8,12 +8,16 @@
     "preview": "vite preview",
     "format": "prettier --write .",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx,.vue",
-    "test": "jest"
+    "test:unit": "jest",
+    "test:cypress": "npx cypress open"
   },
   "dependencies": {
     "vue": "^3.2.25"
   },
   "devDependencies": {
+    "@cypress/vite-dev-server": "^1.2.5",
+    "@cypress/vue": "^3.0.1",
+    "cypress": "^7.2.0",
     "@types/jest": "^27.4.1",
     "@typescript-eslint/eslint-plugin": "^5.17.0",
     "@typescript-eslint/parser": "^5.17.0",
