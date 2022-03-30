@@ -1,4 +1,4 @@
-# Vue 3 + Typescript + Vite + Jest
+# Vue 3 + Vite + Typescript + Jest + Cypress
 
 Starting template for Vue3 with Typescript
 
