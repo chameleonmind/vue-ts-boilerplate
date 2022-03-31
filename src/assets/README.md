@@ -1,0 +1,1 @@
+Store static resources here
