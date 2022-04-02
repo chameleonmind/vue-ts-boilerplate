@@ -1,4 +1,4 @@
-// eslint-disable
+/* eslint-disable */
 import Axios from 'axios'
 
 const axios = Axios.create({
@@ -7,8 +7,7 @@ const axios = Axios.create({
 })
 // Intercept before sending HTTP requests
 axios.interceptors.request.use(
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  (response: any) => {
+  (response) => {
     /**
      * you can process config here
      */
